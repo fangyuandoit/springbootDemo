@@ -1,0 +1,5 @@
+第一节：@RequestMapping 配置 url 映射
+第二节：@Controller 处理 http 请求
+第三节：@RestController 处理 ajax 请求
+第四节：@PathVariable 获取 url 参数
+第五节：@RequestParam 获取请求参数
