@@ -1,0 +1,9 @@
+2019-11-26 16:07:22,209 INFO (StartupInfoLogger.java:50)- Starting SpringbootMybatisApplicationTests on DESKTOP-4A4QJQ3 with PID 281524 (started by 67617 in D:\IDEA\IDEAproject\springbootDemo\springboot_mybatis)
+2019-11-26 16:07:22,210 INFO (SpringApplication.java:652)- No active profile set, falling back to default profiles: default
+2019-11-26 16:07:25,134 INFO (StartupInfoLogger.java:59)- Started SpringbootMybatisApplicationTests in 3.319 seconds (JVM running for 4.58)
+2019-11-26 16:07:25,260 INFO (SpringbootMybatisApplicationTests.java:29)- start select
+2019-11-26 16:07:25,284 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2019-11-26 16:07:25,529 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2019-11-26 16:07:25,567 INFO (SpringbootMybatisApplicationTests.java:32)- end select
+2019-11-26 16:07:25,576 INFO (HikariDataSource.java:381)- HikariPool-1 - Shutdown initiated...
+2019-11-26 16:07:25,579 INFO (HikariDataSource.java:383)- HikariPool-1 - Shutdown completed.
