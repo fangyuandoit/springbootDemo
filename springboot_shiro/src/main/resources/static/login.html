@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+<div id="app">
+    <input type="text" name="account" v-model="account" placeholder="请输入账号">
+    <input type="text" name="password" v-model="password" placeholder="请输入密码">
+    <input type="button" @click="login" value="登录">
+
+</div>
+
+<script src="js/jquery-2.0.0.min.js"></script>
+<script src="js/vue.min.js"></script>
+<script>
+
+    new Vue({
+        el: '#app',
+        data: {
+            account: '',
+            password: '',
+        },
+        methods: {
+            login() {
+                let sendData = {
+                    account: this.account,
+                    password: this.password
+                };
+                $.ajax({
+                    type: "get",
+                    url: "UserController/userLogin",
+                    data: sendData,
+                    dataType: "json",
+                    success: response => {
+                    if(response.success)
+                {
+                    console.log(sendData)
+                    window.location.href = "index.html";
+                }
+            else
+                {
+                    alert(response.info)
+                }
+            }
+            })
+            }
+
+        }
+
+    })
+</script>
+
+</body>
+</html>

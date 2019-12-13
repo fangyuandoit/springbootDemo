@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.fy.springboot_shiro.dao.UserDao">
+
+
+    <select id="selectAllUser" resultType="User">
+           select  * from tb_user;
+    </select>
+
+
+    <select id="selectRoleByAccount" resultType="string">
+         select r.role_name  from tb_user u,tb_role r where u.role_id = r.role_id and u.account = #{account}
+    </select>
+
+    <select id="selectPermissionByAccount" resultType="string">
+
+         select  p.permission_name from tb_user u,tb_role r,tb_permission p where u.role_id=p.role_id and p.role_id = r.role_id and u.account=#{account}
+
+    </select>
+
+
+    <select id="selectUserByAccount" resultType="User">
+
+        select  * from  tb_user where account=#{account}
+
+    </select>
+
+
+</mapper>
