@@ -17,14 +17,9 @@ public class Test {
     public static void main(String[] args) throws Exception {
 //        T1();
 //           T2();
-              T3();
     }
 
-    private static void T3() {
 
-
-
-    }
 
     private static void T2() throws Exception{
          String s ="{\"id\":1,\"name\":\"露露\",\"address\":\"new york\",\"gender\":\"woman\"}";

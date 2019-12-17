@@ -2,6 +2,7 @@ package com.fy.springboot_shiro.controller;
 
 import com.fy.springboot_shiro.dao.UserDao;
 import com.fy.springboot_shiro.entiry.User;
+import com.fy.springboot_shiro.exception.SimpleException;
 import com.fy.springboot_shiro.utils.ResultUtils;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.IncorrectCredentialsException;
@@ -15,6 +16,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
+
+import java.util.Date;
+import java.util.Random;
 
 /**
  * @Author: fy fangyuan@i-soon.net
@@ -65,5 +69,22 @@ public class UserController {
     public Object deleteUser(){
         return "ok";
     }
+
+
+
+    @RequestMapping("randomThrowException")
+    public String randomThrowException(){
+
+        Random random =new Random();
+        int anInt = random.nextInt();
+
+        if(anInt>5){
+               throw new SimpleException("自定义异常");
+        }else{
+            return new Date()+"";
+        }
+
+    }
+
 
 }
