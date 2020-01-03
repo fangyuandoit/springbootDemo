@@ -1,6 +1,7 @@
 package com.fy.springboot_swagger.controller;
 
 import com.fy.springboot_swagger.entity.User;
+import com.google.common.base.Supplier;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.util.Assert;
