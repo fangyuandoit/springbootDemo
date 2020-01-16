@@ -3,6 +3,7 @@ package com.fy.springboot_valication.model;
 import com.fy.springboot_valication.annotation.IsPhone;
 import lombok.Data;
 import org.hibernate.validator.constraints.Length;
+import org.springframework.web.bind.annotation.ControllerAdvice;
 
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotNull;
@@ -27,5 +28,7 @@ public class User {
     private String email;
     @IsPhone
     private String phone;
+    @Pattern(regexp="\\d{6}")
+    private String code;
 
 }
