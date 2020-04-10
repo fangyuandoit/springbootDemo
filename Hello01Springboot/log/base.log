@@ -1,0 +1,3 @@
+2020-02-26 10:03:03,807 INFO (StartupInfoLogger.java:50)- Starting SpringbootLogbackApplication on DESKTOP-4A4QJQ3 with PID 33004 (D:\IDEA\IDEAproject\springbootDemo\springboot_logback\target\classes started by 67617 in D:\IDEA\IDEAproject\springbootDemo\Hello01Springboot)
+2020-02-26 10:03:03,812 INFO (SpringApplication.java:652)- No active profile set, falling back to default profiles: default
+2020-02-26 10:03:06,349 INFO (StartupInfoLogger.java:59)- Started SpringbootLogbackApplication in 2.866 seconds (JVM running for 4.369)

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery-2.0.0.min.js"></script>
+    <script src="js/vue.min.js"></script>
+    <script src="js/axios.min.js"></script>
+</head>
+<body>
+<div id="app">
+<input type="button" @click="selectCurrUser" value="查询当前登录用户的信息">
+<input type="button" @click="selectAllUser" value="管理员才能查询所有的用户">
+<input type="button" @click="imitateDelete" value="模拟delete操作">
+</div>
+
+
+<script>
+
+    $(function(){
+        $.ajaxSetup({
+            complete:function(XMLHttpRequest){
+                // if(XMLHttpRequest.responseText.indexOf("title>安洵云-登录</title")!=-1){
+                //     top.location.href="mainmenu/login";
+                // };
+                console.log(XMLHttpRequest);
+            }
+        })
+    })
+
+
+     new Vue({
+         el: '#app',
+         methods:{
+             selectCurrUser(){
+                 axios
+                     .get('UserController/selectCurrUserInfo')
+                     .then(response => (console.log(response)))
+             .catch(function (error) {
+                     console.log(error);
+                 });
+             },
+             selectAllUser(){
+                 axios
+                     .get('UserController/selectAllUser')
+                     .then(response => (console.log(response.data)))
+             .catch(function (error) {
+                     console.log(error);
+                 });
+             },
+             imitateDelete(){
+                 axios
+                     .get('UserController/deleteUser')
+                     .then(response => (console.log(response.data)))
+             .catch(function (error) {
+                     console.log(error);
+                 });
+             },
+         }
+
+
+     })
+</script>
+
+</body>
+</html>
