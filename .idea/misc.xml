@@ -8,7 +8,9 @@
       <list>
         <option value="$PROJECT_DIR$/Hello01Springboot/pom.xml" />
         <option value="$PROJECT_DIR$/springboot_mybatis_pagehelper/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_groovy/pom.xml" />
       </list>
     </option>
   </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>

@@ -18,7 +18,7 @@ class T1 {
     @Test
     void contextLoads() {
 
-        System.out.println("groovy-------------------- 执行上下文");
+        System.out.println("groovy-------------------- 执行上下文 groovy");
         Assert.assertEquals(1,1);
     }
 

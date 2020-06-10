@@ -1,0 +1,12 @@
+2020-06-10 22:14:38,738 INFO (StartupInfoLogger.java:55)- Starting SpringbootGroovyApplicationTests on DESKTOP-9TEGJB8 with PID 3032 (started by fang in D:\eclipseAndProject\idea\springdemoOfall\springbootDemo\springboot_groovy)
+2020-06-10 22:14:38,739 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-06-10 22:14:42,407 INFO (StartupInfoLogger.java:61)- Started SpringbootGroovyApplicationTests in 3.989 seconds (JVM running for 5.365)
+2020-06-10 22:15:34,782 INFO (StartupInfoLogger.java:55)- Starting SpringbootGroovyApplicationTests on DESKTOP-9TEGJB8 with PID 9656 (started by fang in D:\eclipseAndProject\idea\springdemoOfall\springbootDemo\springboot_groovy)
+2020-06-10 22:15:34,783 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-06-10 22:15:38,182 INFO (StartupInfoLogger.java:61)- Started SpringbootGroovyApplicationTests in 3.707 seconds (JVM running for 5.086)
+2020-06-10 22:16:15,723 INFO (StartupInfoLogger.java:55)- Starting SpringbootGroovyApplicationTests on DESKTOP-9TEGJB8 with PID 14404 (started by fang in D:\eclipseAndProject\idea\springdemoOfall\springbootDemo\springboot_groovy)
+2020-06-10 22:16:15,724 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-06-10 22:16:18,953 INFO (StartupInfoLogger.java:61)- Started SpringbootGroovyApplicationTests in 3.521 seconds (JVM running for 4.818)
+2020-06-10 22:17:37,168 INFO (StartupInfoLogger.java:55)- Starting SpringbootGroovyApplicationTests on DESKTOP-9TEGJB8 with PID 776 (started by fang in D:\eclipseAndProject\idea\springdemoOfall\springbootDemo\springboot_groovy)
+2020-06-10 22:17:37,170 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-06-10 22:17:40,397 INFO (StartupInfoLogger.java:61)- Started SpringbootGroovyApplicationTests in 3.504 seconds (JVM running for 4.721)

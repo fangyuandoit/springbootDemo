@@ -3,12 +3,14 @@ package com.fy.springboot_mybatis_pagehelper;
 import com.fy.springboot_mybatis_pagehelper.entity.User;
 import com.fy.springboot_mybatis_pagehelper.mapper.UserMapper;
 import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import javax.jws.soap.SOAPBinding;
 import java.util.List;
 
 @SpringBootTest
@@ -25,10 +27,9 @@ public class SpringbootMybatisPagehelperApplicationTests {
         List<User> all = userMapper.findAll();
         all.forEach(s -> System.out.println(s));
 
-        System.out.println("---------------");
-        PageHelper.startPage(2,5);
-        all = userMapper.findAll();
-all.forEach(System.out::println);
+        PageInfo<User> pageInfo =new PageInfo<>(all);
+        System.out.println(pageInfo);
+
     }
 
 }

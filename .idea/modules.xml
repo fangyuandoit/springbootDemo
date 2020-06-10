@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Hello01Springboot/demo.iml" filepath="$PROJECT_DIR$/Hello01Springboot/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/springbootDemo.iml" filepath="$PROJECT_DIR$/.idea/springbootDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_groovy/springboot_groovy.iml" filepath="$PROJECT_DIR$/springboot_groovy/springboot_groovy.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_mybatis_pagehelper/springboot_mybatis_pagehelper.iml" filepath="$PROJECT_DIR$/springboot_mybatis_pagehelper/springboot_mybatis_pagehelper.iml" />
     </modules>
   </component>
