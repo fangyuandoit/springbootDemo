@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/Hello01Springboot/pom.xml" />
         <option value="$PROJECT_DIR$/springboot_mybatis_pagehelper/pom.xml" />
         <option value="$PROJECT_DIR$/springboot_groovy/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_zk_dubbo/pom.xml" />
       </list>
     </option>
   </component>

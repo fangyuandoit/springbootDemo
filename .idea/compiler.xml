@@ -10,12 +10,14 @@
         <module name="demo" />
         <module name="springboot_groovy" />
         <module name="springboot_mybatis_pagehelper" />
+        <module name="springboot_zk_dubbo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="demo" target="1.8" />
       <module name="springboot_groovy" target="1.8" />
       <module name="springboot_mybatis_pagehelper" target="1.8" />
+      <module name="springboot_zk_dubbo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
