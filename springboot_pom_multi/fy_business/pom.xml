@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.fy</groupId>
+        <artifactId>springboot_pom_multi</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>fy_business</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>fy_model</module>
+        <module>fy_service</module>
+        <module>fy_dao</module>
+        <module>fy_utils</module>
+    </modules>
+
+
+</project>
