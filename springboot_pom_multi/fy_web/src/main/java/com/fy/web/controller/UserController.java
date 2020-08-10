@@ -40,10 +40,10 @@ public class UserController {
 
 
     @RequestMapping("login")
-    public ResponseEntity<Object> login(@RequestBody User user){
+    public ResponseEntity<Object> login(User user){
       User loginUser =  userService.getUser(user);
       if(loginUser != null){
-          return new ResponseEntity<Object>( HttpStatus.OK);
+          return new ResponseEntity<Object>(loginUser, HttpStatus.OK);
       }else{
           return new ResponseEntity<Object>("登录失败", HttpStatus.BAD_REQUEST);
       }

@@ -4,7 +4,7 @@
 
     <select id="getUser" parameterType="com.fy.model.User" resultType="com.fy.model.User">
 
-         select * from user;
+         select * from user where  username=#{username} and  password =#{password};
 
     </select>
 
