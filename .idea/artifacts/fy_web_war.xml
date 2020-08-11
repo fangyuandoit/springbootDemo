@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="fy_web:war">
+    <output-path>$PROJECT_DIR$/springboot_pom_multi/fy_web/target</output-path>
+    <root id="archive" name="fy_web.war">
+      <element id="artifact" artifact-name="fy_web:war exploded" />
+    </root>
+  </artifact>
+</component>
